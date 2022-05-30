@@ -95,7 +95,7 @@ button {
 
 /* Shared */
 
-#searchBtn{
+.btnSearch{
   border-radius: 0px 16px 16px 0px;
 }
 .errorSearch{

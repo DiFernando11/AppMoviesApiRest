@@ -51,6 +51,7 @@ function homePage() {
   headerTitle.classList.remove("inactive");
   headerCategoryTitle.classList.add("inactive");
   searchForm.classList.remove("inactive");
+  searchFormBtn.classList.remove("inactive");
 
   trendingPreviewSection.classList.remove("inactive");
   categoriesPreviewSection.classList.remove("inactive");
@@ -60,6 +61,7 @@ function homePage() {
 
   getTrendingMoviesPreview();
   getCategoriesPreview();
+
 }
 function categoriesPage() {
   console.log("Categories!!");
