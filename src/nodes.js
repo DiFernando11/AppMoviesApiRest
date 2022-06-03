@@ -1,20 +1,20 @@
 const $select = (id) => document.querySelector(id); //query selector
 
 // Sections
-const headerSection = $select('#header');
-const trendingPreviewSection = $select('#trendingPreview');
-const categoriesPreviewSection = $select('#categoriesPreview');
-const genericSection = $select('#genericList');
-const movieDetailSection = $select('#movieDetail');
-
+const headerSection = $select("#header");
+const trendingPreviewSection = $select("#trendingPreview");
+const categoriesPreviewSection = $select("#categoriesPreview");
+const genericSection = $select("#genericList");
+const movieDetailSection = $select("#movieDetail");
+const likedMovieSection = $select("#liked");
 
 // Lists & Containers
-const searchForm = $select('#searchForm');
-const trendingMoviesPreviewList = $select('.trendingPreview-movieList');
-const categoriesPreviewList = $select('.categoriesPreview-list');
-const movieDetailCategoriesList = $select('#movieDetail .categories-list');
-const relatedMoviesContainer = $select('.relatedMovies-scrollContainer');
-
+const searchForm = $select("#searchForm");
+const trendingMoviesPreviewList = $select(".trendingPreview-movieList");
+const categoriesPreviewList = $select(".categoriesPreview-list");
+const movieDetailCategoriesList = $select("#movieDetail .categories-list");
+const relatedMoviesContainer = $select(".relatedMovies-scrollContainer");
+const likedMoviesListArticle = $select(".liked-movieList");
 
 // Elements
 const headerTitle = $select(".header-title");
@@ -27,3 +27,4 @@ const movieDetailTitle = $select(".movieDetail-title");
 const movieDetailDescription = $select(".movieDetail-description");
 const movieDetailScore = document.querySelector(".movieDetail-score");
 const spanErrorSearch = $select(".errorSearch");
+const btnModSelect = $select(".btnModSelect");
